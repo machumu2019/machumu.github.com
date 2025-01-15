@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	h1{
+background-color: aquamarine;
+	}
+	p{
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 20px;
+	}
+	th{
+		background-color: aquamarine;
+	}
+	body{
+			font-size: 22px;
+			background-color: bisque;
+		}
+	</style>
+</head>
+
+<body>
+<h1><marquee><font color="red">INVESTIGATION OF SOCIAL MEDIA</font></marquee></h1>
+<P><b>Investigation </b>in social media involves using various techniques to gather information from platform like facebook , twiter , instagram , youtube and tiktok and so on </P>
+<p>To uncover insight , trends or evidence related to the particular topic , event or individual.This could including analyzing public posts comments profile and interaction </p>
+<p>to understand sentiments , behaviour or patterns , investigater might also employ tools like social network analysis to map connections between users and identify key players </p>
+<p>a given context.Ethical consideration privacy concerns and the validate of data are crucial to address when conducting social media investigations</p><br>
+<table border="2" cellpadding="1" cellspacing="1" width="50%">
+	<tr>
+		<th>platform</th>
+		<th>2019/20 statistics</th>
+		<th>2019/20 statistics</th>
+	</tr>
+<tr>
+	<td>Twitter</td>
+	<td>1319 followers/Avg. 52,816 monthly reach </td>
+	<td>1179 followers/Avg.monthly reach</td>
+</tr>
+<tr>
+	<td>Instagram</td>
+	<td>331 followers</td>
+	<td>267 followers</td>
+</tr>
+<tr>
+	<td>Facebook</td>
+	<td>183 Group likes</td>
+	<td>161 Group likes</td>
+</tr>
+<tr>
+	<td>Youtube</td>
+	<td>73 subscribers/8173 views</td>
+	<td>46 subscribers /4279 views</td>
+</tr>
+</table><br>
+<div class="table">
+<table cellpadding="2" cellspacing="2" width="50%">
+<tr>
+	<td><a href="www.facebook.com">facebook</a></td>
+	<td><a href="www.instagram.com">instagram</a></td>
+	<td><a href="www.twitter.com">twitter</a></td>
+	<td><a href="www.youtube.com">youtube</a></td>
+</tr>	
+</div>
+</table>
+<hr width="100%" size="5" color="red"/>
+<a href="web.html">clickme</a>
+</body>
+</html>
