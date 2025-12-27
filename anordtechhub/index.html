@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnordTech Hub | Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* General */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+        .nav-link.active {
+            font-weight: bold;
+            color: #ffc107 !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(13,71,161,0.8), rgba(13,71,161,0.8)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            animation: fadeInDown 1s;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            animation: fadeIn 2s;
+        }
+        .hero .btn {
+            padding: 10px 25px;
+            font-weight: bold;
+            border-radius: 50px;
+            animation: fadeInUp 2s;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #f8f9fa;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        .service-card {
+            padding: 30px;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+        .service-card h5 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #0d47a1;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-50px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(50px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fadeIn {
+            from { opacity: 0;}
+            to { opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">AnordTech Hub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Innovative Digital Solutions for a Smarter Future</h1>
+        <p>We provide reliable and modern technology solutions to help your business and ideas grow.</p>
+        <a href="#" class="btn btn-warning btn-lg">Get Started</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services">
+    <div class="container">
+        <h2>Our Core Services</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/web-design.png"/>
+                    <h5>Website Design & Development</h5>
+                    <p>Modern, responsive, and secure websites tailored to your business needs.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/mobile-development.png"/>
+                    <h5>Mobile App Development</h5>
+                    <p>High-performance Android and iOS applications using modern technologies.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/system-task.png"/>
+                    <h5>System Development</h5>
+                    <p>Custom systems for schools, hospitals, and businesses for smooth operations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/support.png"/>
+                    <h5>IT Support & Maintenance</h5>
+                    <p>Reliable technical support and troubleshooting services for all systems.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/graphic-design.png"/>
+                    <h5>Graphic Design & Branding</h5>
+                    <p>Professional logos, posters, banners, and full brand identity design.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/64/000000/graphic-design.png"/>
+                    <h5>CCTV Camera Installation</h5>
+                    <p>Reliable installation of cctv camara.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>© 2025 AnordTech Hub | All Rights Reserved</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Optional JS for animations -->
+<script>
+    // Simple scroll animation for service cards
+    const cards = document.querySelectorAll('.service-card');
+    window.addEventListener('scroll', () => {
+        const triggerBottom = window.innerHeight / 5 * 4;
+        cards.forEach(card => {
+            const cardTop = card.getBoundingClientRect().top;
+            if(cardTop < triggerBottom){
+                card.style.transform = 'translateY(0)';
+                card.style.opacity = '1';
+            } else {
+                card.style.transform = 'translateY(50px)';
+                card.style.opacity = '0';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
